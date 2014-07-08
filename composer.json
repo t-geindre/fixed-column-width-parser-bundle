@@ -20,6 +20,9 @@
         "zol/fixed-column-width-parser" : "0.1.*",
         "symfony/symfony" : "2.*"
     },
+    "require-dev": {
+        "atoum/atoum": "dev-master"
+    },
     "autoload":     {
         "psr-0": { "": "src/" }
     }
