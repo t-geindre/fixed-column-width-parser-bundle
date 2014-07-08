@@ -46,6 +46,12 @@ class ZolFixedColumnWidthParserExtension extends Extension
         }
     }
 
+    /**
+     * LoadSchemas
+     *
+     * @param array            $files
+     * @param ContainerBuilder $container
+     */
     protected function loadSchemas(array $files, ContainerBuilder $container)
     {
         $parser = new YamlParser;
