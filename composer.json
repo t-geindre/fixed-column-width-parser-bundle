@@ -1,0 +1,25 @@
+{
+    "name":         "zol/fixed-column-width-parser-bundle",
+    "type":         "library",
+    "description":  "Provide Symfony integration for fixed-column-width-parser",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":     "Zol",
+            "homepage": "http://www.zol.fr"
+        },
+        {
+            "name":     "Thierry Geindre",
+            "email":    "dev@nostalgeek.org"
+        }
+    ],
+    "require":      {
+        "php":  ">=5.4.0"
+    },
+    "require": {
+        "zol/fixed-column-width-parser" : "0.1.*"
+    },
+    "autoload":     {
+        "psr-0": { "": "src/" }
+    }
+}

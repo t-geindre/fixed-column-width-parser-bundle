@@ -1,0 +1,10 @@
+parameters:
+    zol.parser.fixed_column_width.class: Zol\Parser\FixedColumnWidth\Parser
+    zol.schema_validator.fixed_column_width.class: Zol\Parser\FixedColumnWidth\SchemaValidator
+
+services:
+    zol.parser.fixed_column_width:
+        class: %zol.parser.fixed_column_width.class%
+
+    zol.schema_validator.fixed_column_width:
+        class: %zol.schema_validator.fixed_column_width.class%
