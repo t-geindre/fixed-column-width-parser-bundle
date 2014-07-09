@@ -1,4 +1,4 @@
-# Fixed column width parser bundle
+# Fixed column width parser bundle [![Build Status](https://travis-ci.org/t-geindre/fixed-column-width-parser-bundle.svg?branch=master)](https://travis-ci.org/t-geindre/fixed-column-width-parser-bundle)
 
 Provide Symfony integration for [fixed-column-width-parser library](https://github.com/t-geindre/fixed-column-width-parser).
 
@@ -13,15 +13,15 @@ $ composer install zol/fixed-column-width-parser-bundle
 Then, enable the bundle in your AppKernel :
 
 ```php
-    public function registerBundles()
-    {
-        $bundles = array(
-            // [...]
-            new Zol\Bundle\FixedColumnWidthParserBundle\ZolFixedColumnWidthParserBundle()
-        );
+public function registerBundles()
+{
+    $bundles = array(
+        // [...]
+        new Zol\Bundle\FixedColumnWidthParserBundle\ZolFixedColumnWidthParserBundle()
+    );
 
-        return $bundles;
-    }
+    return $bundles;
+}
 ```
 
 ## Configuration
@@ -115,7 +115,7 @@ $genericParser->parse('file.dat', ['entry' => [1]]); // return array file conten
 // Configuration defined parser
 $itemParser = $container->get('zol.parser.fixed_column_width.item');
 $itemParser->parse('item.dat'); // return array file content
-``
+```
 
 ## Tests
 
