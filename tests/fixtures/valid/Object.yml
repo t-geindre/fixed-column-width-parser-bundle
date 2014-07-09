@@ -1,0 +1,9 @@
+foo.bar.object:
+    entry:
+        key: 5
+        title: 100
+
+foo.bar.other.object:
+    entry:
+        reference: 3
+        definition: 50
